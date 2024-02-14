@@ -1,0 +1,342 @@
+body{
+    font-family: "Raleway";
+    margin: 0; 
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+
+}
+
+header {
+    background:#f6840c;
+    padding: 20px 0;
+    opacity: 95%;
+}
+
+.encabezado {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center; 
+}
+
+.encabezado img {
+    width: 150px; 
+    height: auto; 
+}
+
+.encabezado p{
+    display: block;
+    margin: 10px;
+
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px; 
+}
+
+nav a {
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    font-weight:lighter;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 16px;
+    font-weight:normal;
+    text-transform: uppercase;
+}
+
+
+.principal{
+    padding: 20px;
+    background: #fefefe;
+    width: 940px;
+    margin: 30px auto;
+}
+
+.titulo-central{
+    text-align: left;
+    font-size: 4em;
+    margin: 0 auto;
+    clear: left;
+    font-family: "Allison", cursive;
+    color: #546364;
+}
+
+.principal p{
+    color: #546364;
+}
+
+.principal p:last-child{
+    color: white;
+}
+
+.banner {
+    float: right;
+    width: 60%; 
+}
+    
+.caja-texto {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #a1bb3a;
+    font-size:20px;
+    color: white; 
+    padding: 1px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    font-weight:bold; 
+    opacity: 90%;
+    font-style: italic;
+}
+
+.caja-texto:hover{
+    font-size: 22px;
+}
+
+.noticia{
+    text-align: center;
+    font-size: 15px;
+    clear: left;
+    display: block;
+    color:#546364;
+    font-family: "Raleway";
+}
+
+.imagen-noticia {
+    width: 30%;
+    display: inline-block; 
+    margin: 10px 10px; 
+}
+
+.imagen-noticia:hover{
+    opacity: 70%;
+}
+
+#verNoticia {
+    display: block; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    background-color: #a1bb3a;
+    color: #fff;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-bottom: 40px;
+    font-family: "Raleway";
+}
+
+#verNoticia:hover {
+    background-color: #f6840c; 
+    font-size: 20px;
+}
+
+.bicilab {
+    display: flex; 
+    padding: 10px 10px 10px 10px;
+}
+
+.slider, .info-bicilab {
+    flex: 1;
+}
+
+.slider {
+    width: 100%; 
+    position: relative;
+    text-align: center;
+    margin: auto 5%;
+}
+
+.info-bicilab{
+    margin: auto;
+    float: right;
+    color: #546364;
+}
+
+.slide {
+    width: 100%; 
+    display: none; 
+}
+
+.slide img {
+    width: 100%; 
+    height: auto;
+    padding: 10px;
+}
+
+
+.slide.active {
+    display:block;
+}
+
+.actividades h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.mosaic {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .mosaic p{
+    text-align: center;
+    color:#546364;
+    font-style: italic;
+  }
+  
+  .image {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  
+  .image img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.2s ease;
+  }
+
+  .image:hover{
+    opacity:50%;
+  }
+
+.tutoriales h2{
+    text-align: center;
+}
+
+.tutoriales p{
+    text-align: center;
+}
+
+.tutoriales iframe {
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+.contenedor-video {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: #546364;
+}
+
+.video {
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox{
+    margin: 20px 0;
+
+}
+
+button[type="submit"] {
+    background-color: #f6840c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #a1bb3a;
+}
+
+
+footer {
+    text-align: center;
+    background: url(img/fondo1.jpeg);
+    padding: 40px;
+    margin-top: auto;
+}
+
+footer img {
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+@media screen and (max-width:480px){
+    .encabezado, .noticia, .caja-texto{
+        width: auto;
+    }
+
+    .banner{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .principal {
+        width: auto;
+        margin-bottom: 0 auto;
+
+    }
+
+    .bicilab{
+        display: block;
+        width: auto;
+    }
+    .contenedor-video{
+        width: auto;
+        display: block;
+    }
+
+}
