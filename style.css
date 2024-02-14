@@ -140,6 +140,7 @@ nav a:hover {
     transition: background-color 0.3s ease; 
     margin-bottom: 40px;
     font-family: "Raleway";
+    margin: 40px auto;
 }
 
 #verNoticia:hover {
